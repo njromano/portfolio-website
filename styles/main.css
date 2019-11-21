@@ -24,6 +24,7 @@ h1 {
 }
 
 #me {
+    width: auto;
     border-radius: 50%;
     float: right;
 }
@@ -49,9 +50,13 @@ h1 {
     .container {
         width: calc(100% - 2em);
     }
+
+    img {
+        width: calc(100% - 2em);
+    }
 }
 
-#project-myutlaw {
+img {
     width: 100%;
 }
 
