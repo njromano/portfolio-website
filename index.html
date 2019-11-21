@@ -9,13 +9,14 @@
 <body>
 <div class="container">
     <div class="contact-floater">
-        <form>
-            <label><b>Contact</b></label>
-            <input type="text" placeholder="Name">
-            <input type="text" placeholder="Email">
-            <textarea placeholder="What can I make for you?"></textarea>
-            <button type="submit">Submit</button>
+        <form action="https://mailthis.to/dev@njromano.com"
+              method="POST">
+            <input type="text" name="name" placeholder="Name">
+            <input type="email" name="_replyto" placeholder="Email">
+            <textarea name="message" placeholder="Tell me what to build"></textarea>
+            <input type="submit" value="Send">
         </form>
+
     </div>
     <img src="img/me.jpg" id="me">
     <h1>Nick Romano</h1>

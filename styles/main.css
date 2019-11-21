@@ -92,7 +92,7 @@ hr {
     padding: .5em 1em;
 }
 
-button {
+input[type=submit] {
     border: none;
     padding: .5em 0;
 }
