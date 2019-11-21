@@ -8,7 +8,8 @@
 </head>
 <body>
 <div class="container">
-    <div class="contact-floater">
+    <div class="contact-floater" id="contact">
+        <input type="button" value="x" onclick="document.getElementById('contact').hidden = true">
         <form action="https://mailthis.to/dev@njromano.com"
               method="POST">
             <input type="text" name="name" placeholder="Name">

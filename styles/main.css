@@ -97,6 +97,16 @@ input[type=submit] {
     padding: .5em 0;
 }
 
+#contact input[type=button]{
+    border: none;
+    background-color: transparent;
+    margin-bottom: 1em;
+}
+
 footer {
     padding: 1em 0;
+}
+
+input[type=submit], input[type=button] {
+    cursor: pointer;
 }
