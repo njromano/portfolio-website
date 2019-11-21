@@ -3,6 +3,7 @@
 
 :root {
     font-family: "Titillium", sans-serif;
+    --primary-color: #455A64;
 }
 
 body {
@@ -63,7 +64,7 @@ img {
 .img-placeholder {
     width: 100%;
     height: 200px;
-    background: lightblue;
+    background: var(--primary-color);
 }
 
 hr {
@@ -109,4 +110,10 @@ footer {
 
 input[type=submit], input[type=button] {
     cursor: pointer;
+}
+
+a {
+    color: var(--primary-color);
+    font-weight: 600;
+    text-decoration: none;
 }
