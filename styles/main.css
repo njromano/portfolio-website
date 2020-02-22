@@ -71,33 +71,6 @@ hr {
     margin-bottom: 4em;
 }
 
-.contact-floater {
-    background: white;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    padding: 1em 2em;
-}
-
-.contact-floater form {
-    display: flex;
-    flex-direction: column;
-}
-
-.contact-floater form label {
-    margin-bottom: .5em;
-}
-
-.contact-floater form input, .contact-floater form textarea {
-    margin-bottom: 1em;
-    padding: .5em 1em;
-}
-
-input[type=submit] {
-    border: none;
-    padding: .5em 0;
-}
-
 #contact input[type=button]{
     border: none;
     background-color: transparent;
